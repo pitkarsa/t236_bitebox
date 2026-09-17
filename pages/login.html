@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>BiteBox</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=login" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
 </head>
+
 <body>
-    <h1>Login</h1>
+    <!-- container tags : div - block element, span- inline element -->
+    <!-- <div>
+            <h1>Sample Header</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet excepturi modi in repellat tempora sed obcaecati atque ex libero. Nemo perspiciatis officiis iure repellat in quidem deleniti non dolorem quam?</p>            
+        </div>
+        <div>Div example</div>
+        <div>one more div</div>
+        <span>
+            span example
+        </span>
+        <span> one more span</span> -->
+    <div id="header">
+        <!-- Header -->
+        <nav>
+            <span>BiteBox</span>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <!-- <i class="fa-sharp fa-regular fa-cart-shopping"></i> -->
+                <span class="material-symbols-outlined">
+                    login
+                </span>
+            </ul>
+        </nav>
+    </div>
+    <div id="main">     
+        <form>
+          <table >
+            <caption>Login</caption>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="text" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="Cancel"></td>
+                    <td><input type="submit" value="Login"></td>
+                </tr>
+          </table>
+        </form>
+    </div>
+    <div id="footer">
+        <div class="map">
+            <p> 2nd Floor, Ishaan Arcade-1, Opposite Gaondevi Mandir, Above Canara Bank, Gokhale Road, Thane West, Thane - 400602</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.171821161542!2d72.97141247322377!3d19.187696282039987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8d834c00235%3A0x89ff617b4a6cbf6f!2sItvedant%20-%20Thane!5e0!3m2!1sen!2sin!4v1789441759649!5m2!1sen!2sin" width="300" height="250"  allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <div class="icons">
+           <ul>
+            <li><i class="fa-solid fa-phone"></i> 9874563210</li>
+            <li><i class="fa-brands fa-square-whatsapp"></i> 9966558877</li>
+            <li><i class="fa-brands fa-instagram"></i> bitebox_foodies</li>
+            <li><i class="fa-brands fa-square-x-twitter"></i> bitebox_foodies</li>
+            <li><i class="fa-solid fa-at"></i> <a href="http://www.gmail.com">foodies@bitebox.com</a> </li>
+           </ul>
+            
+            
+        </div>
+    </div>
 </body>
+
 </html>
