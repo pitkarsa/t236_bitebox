@@ -42,17 +42,18 @@
             </ul>
         </nav>
     </div>
-    <div id="main">     
-        <form>
+    <div id="main">  
+        <center>
+        <form method="POST">
           <table >
             <caption>Registration</caption>
                 <tr>
                     <td><label>username</label></td>
-                    <td><input type="text" name="username"></td>
+                    <td><input type="text" name="username" required></td>
                 </tr>
                 <tr>
                     <td><label>Email</label></td>
-                    <td><input type="email" name="email"></td>
+                    <td><input type="email" name="email" required></td>
                 </tr>
                 <tr>
                     <td><label>Password</label></td>
@@ -81,7 +82,7 @@
                 </tr>
                 <tr>
                     <td>Birth date</td>
-                    <td><input type="date" name="birthdate"></td>
+                    <td><input type="date" name="birthdate" max="2026-09-18"></td>
                 </tr>
                 <tr>
                     <td>Quantity</td>
@@ -105,6 +106,7 @@
                 </tr>
           </table>
         </form>
+        </center>   
     </div>
     <div id="footer">
         <div class="map">
