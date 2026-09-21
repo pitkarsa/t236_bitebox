@@ -64,13 +64,13 @@ video{
 }
 .menu-items{
     display: flex;
+    flex-wrap: wrap;
     margin-top:10px;
 }
 .food-card{
     /* border: 2px solid rgb(72, 71, 71); */
-    border-radius: 5px;
-    width: 20%;
-    /* box-sizing: border-box;box-size = border+padding+content */
+    border-radius: 5px;    
+    box-sizing: border-box;
     margin:20px;
     padding: 10px;  
     box-shadow: 5px 5px rgb(54, 52, 52) ; 
